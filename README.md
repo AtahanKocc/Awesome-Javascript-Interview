@@ -304,6 +304,7 @@ console.log(typeof typeof typeof true);
 
 
 ## Question 21: What is the output of below code?
+``` javascript
 let zero = new Number(0);
 
 if (zero) {
@@ -311,7 +312,8 @@ if (zero) {
 } else {
   console.log("Else");
 }
-A: If
+```
+A: If 
 B: Else
 C: NaN
 D: SyntaxError
@@ -332,7 +334,7 @@ let count = 10;
   }
   console.log(count);
 })();
-``
+```
 <details><summary><b>Answer</b></summary>
  11, 10
 </details>
