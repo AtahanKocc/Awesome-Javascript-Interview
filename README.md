@@ -76,7 +76,7 @@ On the other hand, null is an assignment value that can be assigned to a variabl
 </detail>
 
 
-## Question4: 
+## Question4: What will be the output of the following code?
 
 ``` javascript
 var bar = true;
