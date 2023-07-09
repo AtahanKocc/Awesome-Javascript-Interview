@@ -24,13 +24,75 @@ console.log(test2());
 
 { name: 'Atahan Koc' }
 undefined
-First, the test1 function is defined. This function returns an object with the name property set to "Atahan Koc".
 
-Next, the test2 function is defined. This function also returns an object, but there is a line break immediately after the return statement. This line break triggers JavaScript's automatic semicolon insertion rule. According to this rule, a semicolon is automatically inserted after the return statement.
-The first console.log statement calls the test1() function and prints the returned object. The object is in the form { name: 'Atahan Koc' }.
+The code defines two functions, test1 and test2.
 
-The second console.log statement calls the test2() function and prints the returned value. However, an important point to note here is that due to the line break after the return statement, JavaScript automatically inserts a semicolon, and the return statement returns an empty value. Therefore, the console.log statement prints undefined.
+In test1, an object with the name property set to "Atahan Koc" is returned. In test2, a line break after the return statement causes JavaScript's automatic semicolon insertion rule to add a semicolon. As a result, the return statement returns an empty value, leading to undefined being returned.
 
-As a result, the test1() function returns an object { name: 'Atahan Koc' }, while the test2() function returns undefined. This difference arises due to the line break after the return statement in the second function and JavaScript's automatic semicolon insertion rule.
+When test1() is called, it returns an object { name: 'Atahan Koc' }.
+
+When test2() is called, it returns undefined.
+
+The difference in return values arises due to the line break and automatic semicolon insertion in test2.
 
 </details>
+
+## Question 2. What will be the output of the following code?
+
+```javascript
+console.log(1<2<3);
+console.log(3>2>1); 
+
+```
+<details><summary><b>Answer</b></summary>
+
+true
+false
+
+First, 1 < 2 is evaluated, which returns true because 1 is less than 2.
+Then, true < 3 is evaluated. JavaScript automatically converts logical values to numerical values, with true being converted to 1.
+As a result, the expression is evaluated as 1 < 3, which is true.
+Therefore, the first console.log prints true.
+The second console.log expression evaluates the expression 3 > 2 > 1. It is also evaluated from left to right.
+
+First, 3 > 2 is evaluated, which returns true because 3 is greater than 2.
+Then, true > 1 is evaluated. JavaScript automatically converts true to the numerical value 1.
+However, it's important to note that 1 > 1 is false because 1 is not greater than 1; it's equal to 1.
+Therefore, the expression is evaluated as true > 1, which is false.
+As a result, the second console.log prints false.
+</details>
+
+
+##  Question 3: Is there a difference between null and undefined in JavaScript?
+
+<details><summary><b>Answer</b></summary>
+
+JavaScript, unlike some other languages, treats null and undefined as two distinct concepts.
+
+In JavaScript, undefined means that a variable has been declared but has not been assigned a value yet.
+
+On the other hand, null is an assignment value that can be assigned to a variable to represent the absence of a value. When we use the typeof operator on null, it returns "object" indicating that null is considered an empty object reference.
+
+</detail>
+
+
+## Question4: 
+
+``` javascript
+var bar = true;
+console.log(bar + 0);   
+console.log(bar + "xyz");  
+console.log(bar + true);  
+console.log(bar + false); 
+
+```
+
+<details><summary><b>Answer</b></summary>
+
+output:
+1
+"truexyz"
+2
+1
+
+</detail>
