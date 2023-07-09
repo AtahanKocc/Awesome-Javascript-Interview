@@ -95,3 +95,147 @@ output:
 1 
 
 </details>
+
+###  Question 5: What would be the output of following code?
+```javascript
+var arrA = [0,1,2,3,4,5];
+var arrB = arrA.slice();
+arrB[0]=42;
+console.log(arrA)
+```
+
+
+<details><summary><b>Answer</b></summary>
+
+The output will be `[0,1,2,3,4,5]`. 
+
+The `slice` function copies all the elements of the array returning the new array. That's why
+`arrA` and `arrB` reference two completely different arrays. 
+
+</details>
+
+##  Question 6: What is the usage of Void(0)?
+
+<details><summary><b>Answer</b></summary>
+Void(0) is used to prevent the page from refreshing, and it passes the parameter "zero" during the execution.
+</details>
+
+
+## Question 7:  What are JavaScript Data Types?
+
+<details><summary><b>Answer</b></summary>
+
+Following are the JavaScript Data types:
+
+- Number
+- String
+- Boolean
+- Object
+- Undefined
+
+</details>
+
+## Question 8: What are all the types of Pop up boxes available in JavaScript?
+
+<details><summary><b>Answer</b></summary>
+
+- alert
+- confirm
+- prompt
+
+</details>
+
+## Question 9: What is progressive rendering?
+
+<details><summary><b>Answer</b></summary>
+
+Progressive rendering is an approach in web development that focuses on displaying content to users as quickly as possible, even before the entire web page has finished loading.
+
+</details>
+
+
+## Question 10:  Why do we use the word “debugger” in javascript?
+
+<details><summary><b>Answer</b></summary>
+The debugger for the browser must be activated in order to debug the code. Built-in debuggers may be switched on and off, requiring the user to report faults. The remaining section of the code should stop execution before moving on to the next line while debugging.
+
+</details>
+
+## Question 11:  Difference between “ == “ and “ === “ operators.
+
+<details><summary><b>Answer</b></summary>
+The "==" operator is used to compare values, while the "===" operator is used to compare both values and types.
+</details>
+
+## Question 12:  What are object prototypes?
+
+<details><summary><b>Answer</b></summary>
+Date objects inherit properties from the Date prototype
+Math objects inherit properties from the Math prototype
+Array objects inherit properties from the Array prototype.
+</details>
+
+
+## Question 13: What are callbacks?
+
+<details><summary><b>Answer</b></summary>
+A callback is a function that will be executed after another function gets executed. In javascript, functions are treated as first-class citizens, they can be used as an argument of another function, can be returned by another function, and can be used as a property of an object.
+</details>
+
+## Question 14: What would be the output of following code ?
+``` javascript
+(function() {
+	var objA = {
+		foo: 'foo',
+		bar: 'bar'
+	};
+	var objB = {
+		foo: 'foo',
+		bar: 'bar'
+	};
+	console.log(objA == objB);
+	console.log(objA === objB);
+}()); 
+```
+
+a. false true
+b. false false
+c. true  true
+d. true  false
+
+
+<details><summary><b>Answer</b></summary>
+b. false false
+</details>
+
+## Question 15: What would be the output of following code ?
+``` javascript
+(function() {
+	var objA = {
+		foo: 'foo'
+	};
+	var objB = objA;
+	objB.foo = 'bar';
+
+	delete objA.foo;
+	console.log(objA.foo);
+	console.log(objB.foo);
+}());
+
+```
+
+<details><summary><b>Answer</b></summary>
+Inside the function, objA is defined as an object with a foo property set to "foo".
+
+objB is then assigned the reference of objA, so both objA and objB point to the same object.
+
+The value of objB.foo is changed to "bar". Since both objA and objB reference the same object, this change affects both variables.
+
+The foo property is deleted from objA.
+
+The first console.log statement evaluates objA.foo. Since the foo property was deleted, its value is undefined.
+
+The second console.log statement evaluates objB.foo. Since objB still refers to the modified object, the value of foo is "bar".
+
+In summary, the first console.log outputs undefined because the foo property was deleted from objA, while the second console.log outputs "bar" because objB still refers to the modified object.
+</details>
