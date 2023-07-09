@@ -73,10 +73,10 @@ In JavaScript, undefined means that a variable has been declared but has not bee
 
 On the other hand, null is an assignment value that can be assigned to a variable to represent the absence of a value. When we use the typeof operator on null, it returns "object" indicating that null is considered an empty object reference.
 
-</detail>
+</details>
 
 
-## Question4: What will be the output of the following code?
+## Question 4: What will be the output of the following code?
 
 ``` javascript
 var bar = true;
@@ -84,7 +84,6 @@ console.log(bar + 0);
 console.log(bar + "xyz");  
 console.log(bar + true);  
 console.log(bar + false); 
-
 ```
 
 <details><summary><b>Answer</b></summary>
@@ -95,4 +94,4 @@ output:
 2
 1
 
-</detail>
+</details>
