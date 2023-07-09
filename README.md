@@ -89,9 +89,9 @@ console.log(bar + false);
 <details><summary><b>Answer</b></summary>
 
 output:
-1
-"truexyz"
-2
-1
+1 <br>
+"truexyz" <br>
+2 <br>
+1 
 
 </details>
