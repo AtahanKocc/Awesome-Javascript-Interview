@@ -239,3 +239,120 @@ The second console.log statement evaluates objB.foo. Since objB still refers to 
 
 In summary, the first console.log outputs undefined because the foo property was deleted from objA, while the second console.log outputs "bar" because objB still refers to the modified object.
 </details>
+
+
+## Question 16: What would be the output of following code ?
+
+```javascript
+let arrayIntegers = [1, 2, 3, 4, 5];
+let arrayIntegers1 = arrayIntegers.slice(0, 2); 
+let arrayIntegers2 = arrayIntegers.slice(2, 3); // returns [3]
+let arrayIntegers3 = arrayIntegers.slice(4); //returns [5]
+
+``
+<details><summary><b>Answer</b></summary>
+// returns [1,2]
+// returns [3]
+// returns [5]
+</details>
+
+
+## Question 17: What is a first order function?
+
+<details><summary><b>Answer</b></summary>
+First-order function is a function that doesn’t accept another function as an argument and doesn’t return a function as its return value.
+````javascript
+const firstOrder = () => console.log("I am a first order function!");
+``
+</details>
+
+
+## Question 18: Why do you need modules?
+
+<details><summary><b>Answer</b></summary>
+Below are the list of benefits using modules in javascript ecosystem
+
+Maintainability
+Reusability
+Namespacing
+</details>
+
+
+## Question 19: . What is the output of below code?
+```javascript 
+console.log("🙂" === "🙂");
+``
+
+<details><summary><b>Answer</b></summary>
+true
+</details>
+
+
+## Question 20: What is the output of below code?
+
+``` javascript
+console.log(typeof typeof typeof true);
+``
+
+1: string
+2: boolean
+3: NaN
+4: number
+<details><summary><b>Answer</b></summary>
+1: string
+</details>
+
+
+## Question 21: What is the output of below code?
+let zero = new Number(0);
+
+if (zero) {
+  console.log("If");
+} else {
+  console.log("Else");
+}
+A: If
+B: Else
+C: NaN
+D: SyntaxError
+
+<details><summary><b>Answer</b></summary>
+ A: If
+</details>
+
+## Question 22:What is the output of the below code?
+
+``` javascipt
+let count = 10;
+
+(function innerFunc() {
+  if (count === 10) {
+    let count = 11;
+    console.log(count);
+  }
+  console.log(count);
+})();
+``
+<details><summary><b>Answer</b></summary>
+ 11, 10
+</details>
+
+
+## Question 23:
+
+``` javascript
+getMessage();
+
+var getMessage = () => {
+  console.log("Good morning");
+};
+
+``
+A: Good morning
+B: getMessage is not a function
+C: getMessage is not defined
+D: Undefined
+
+<details><summary><b>Answer</b></summary>
+ B : getMessage is not a function
+</details>
