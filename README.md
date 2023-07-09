@@ -249,7 +249,7 @@ let arrayIntegers1 = arrayIntegers.slice(0, 2);
 let arrayIntegers2 = arrayIntegers.slice(2, 3); // returns [3]
 let arrayIntegers3 = arrayIntegers.slice(4); //returns [5]
 
-``
+```
 <details><summary><b>Answer</b></summary>
 // returns [1,2]
 // returns [3]
@@ -263,7 +263,7 @@ let arrayIntegers3 = arrayIntegers.slice(4); //returns [5]
 First-order function is a function that doesn’t accept another function as an argument and doesn’t return a function as its return value.
 ````javascript
 const firstOrder = () => console.log("I am a first order function!");
-``
+```
 </details>
 
 
@@ -281,7 +281,7 @@ Namespacing
 ## Question 19: . What is the output of below code?
 ```javascript 
 console.log("🙂" === "🙂");
-``
+```
 
 <details><summary><b>Answer</b></summary>
 true
@@ -292,7 +292,7 @@ true
 
 ``` javascript
 console.log(typeof typeof typeof true);
-``
+```
 
 1: string
 2: boolean
