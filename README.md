@@ -349,7 +349,7 @@ var getMessage = () => {
   console.log("Good morning");
 };
 
-``
+```
 A: Good morning
 B: getMessage is not a function
 C: getMessage is not defined
