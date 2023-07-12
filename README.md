@@ -373,3 +373,26 @@ console.log("typeof : "+ typeof resp())
 typeof : number
 </details>
 
+## Question 25: What does "NaN" mean in JavaScript?
+
+<details><summary><b>Answer</b></summary>
+"NaN" stands for "Not a Number." It is used to indicate an invalid number result when performing a mathematical operation in JavaScript.
+</details>
+
+## Question 26: What is "prototype" in JavaScript and how is it used?
+
+<details><summary><b>Answer</b></summary>
+"Prototype" is a feature in JavaScript used to share properties and methods among objects. When an object is created, its properties and methods can be accessed through the prototype chain.
+</details>
+
+
+## Question 27: What is a "Promise" in JavaScript and how does it work?
+
+<details><summary><b>Answer</b></summary>
+"Promise" is a construct used to manage asynchronous operations in JavaScript. It returns an object that represents the eventual completion or failure of an asynchronous operation and provides a way to handle the returned value. "Promise" is used with the "then()" and "catch()" methods to perform relevant actions when the operation is successful or when an error occurs.
+</details>
+
+
+
+
+
