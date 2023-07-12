@@ -322,7 +322,7 @@ D: SyntaxError
  A: If
 </details>
 
-## Question 22:What is the output of the below code?
+## Question 22: What is the output of the below code?
 
 ``` javascipt
 let count = 10;
@@ -350,11 +350,26 @@ var getMessage = () => {
 };
 
 ```
-A: Good morning
-B: getMessage is not a function
-C: getMessage is not defined
+A: Good morning <br>
+B: getMessage is not a function <br>
+C: getMessage is not defined  <br>
 D: Undefined
 
 <details><summary><b>Answer</b></summary>
  B : getMessage is not a function
 </details>
+
+
+## Question 24: What is the output of the below code?
+```javascript
+const resp = () => {
+    return (()=> 0 )();
+}
+console.log("typeof : "+ typeof resp())
+
+```
+
+<details><summary><b>Answer</b></summary>
+typeof : number
+</details>
+
