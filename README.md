@@ -393,6 +393,85 @@ typeof : number
 </details>
 
 
+## Question 28: What is the value of Math.max([2,3,4,5]); 
 
+<details><summary><b>Answer</b></summary>
+NaN. If you pass an array to the Math.max() function, the result will be NaN (Not a Number).
+</details>
+
+
+## Question 29: If var a = 2, b =3 what would be value of a && b
+
+<details><summary><b>Answer</b></summary>
+3
+</details>
+
+
+## Question 30: What is the output of below code?
+
+```javascript
+let a="hello";
+let b =`hello`;
+console.log(a === b);
+console.log(a == b); 
+
+```
+<details><summary><b>Answer</b></summary>
+true
+true
+</details>
+
+## Question 31: What is the output of below code?
+
+```javascript
+let a =1;
+let b =1;
+let c =2;
+console.log(a === b === -c);
+
+```
+<details><summary><b>Answer</b></summary>
+a===b gives True. true === -c(number) gives false.
+</details>
+
+
+## Question 32: What is the output of below code?
+
+```javascript
+const func = (function(a){
+                   delete a;
+                   return a;
+               } )(5)
+console.log(func);
+
+```
+
+<details><summary><b>Answer</b></summary>
+output: 5
+</details>
+
+
+
+## Question 33: What is the output of below code?
+
+```javascript
+
+const person1 = {
+  name : "Atahan"
+}
+const person2 = {
+  name : "Gokce"
+}
+const person = Object.assign(person1, person2);
+
+console.log(person); 
+console.log(person.name); 
+console.log(person1.name); 
+console.log(person2.name); 
+```
+
+<details><summary><b>Answer</b></summary>
+Having same key name so, the value is override and it will be "Gokce"
+</details>
 
 
