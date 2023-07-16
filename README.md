@@ -475,3 +475,187 @@ Having same key name so, the value is override and it will be "Gokce"
 </details>
 
 
+## Question 34: What is the output of below code?
+
+```javascript
+function sayHi() {
+  console.log(name);
+  console.log(age);
+  var name = 'Lydia';
+  let age = 21;
+}
+
+sayHi();
+
+```
+<details><summary><b>Answer</b></summary>
+Undefined <br>
+ReferenceError 
+</details>
+
+## Question 34: What is the output of below code?
+
+```javascript
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+
+```
+
+<details><summary><b>Answer</b></summary>
+Output: 3 3 3 - 1 2 3
+</details>
+
+
+
+## Question 34: What is the output of below code?
+
+```javascript
++true;
+!'Ata';
+```
+
+<details><summary><b>Answer</b></summary>
+1 and False
+</details>
+
+## Question 35: What is the output of below code?
+
+```javascript
+let c = { greeting: 'Hey!' };
+let d;
+
+d = c;
+c.greeting = 'Hello';
+console.log(d.greeting);
+```
+
+<details><summary><b>Answer</b></summary>
+Hello
+</details>
+
+
+
+## Question 35: What is the output of below code?
+
+```javascript
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+```
+
+<details><summary><b>Answer</b></summary>
+True <br>
+False
+False
+</details>
+
+
+
+## Question 36: What is the output of below code?
+
+```javascript
+let greeting;
+greetign = {}; // Typo!
+console.log(greetign);
+```
+
+<details><summary><b>Answer</b></summary>
+{}
+</details>
+
+
+
+## Question 37: What is the output of below code?
+
+```javascript
+function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const member = new Person('Lydia', 'Hallie');
+Person.getFullName = function() {
+  return `${this.firstName} ${this.lastName}`;
+};
+
+console.log(member.getFullName());
+```
+
+<details><summary><b>Answer</b></summary>
+The output will be "TypeError: member.getFullName is not a function".
+At the beginning of the code, the function Person is defined as a constructor function, and it does not have a property named getFullName. Then, an object named member is created as an instance of the Person constructor.
+</details>
+
+
+## Question 38: All object have prototypes.?
+
+<details><summary><b>Answer</b></summary>
+False - All objects have prototypes, except for the base object.
+</details>
+
+
+## Question 39: What is the output of below code?
+
+```javascript
+let number = 0;
+console.log(number++);
+console.log(++number);
+console.log(number);
+```
+
+<details><summary><b>Answer</b></summary>
+0 2 2
+</details>
+
+## Question 40:  What's the value of sum?
+
+```javascript
+const sum = eval('10*10+5');
+```
+
+<details><summary><b>Answer</b></summary>
+105
+</details>
+
+
+
+## Question 41:  What's the output?
+
+```javascript
+var num = 8;
+var num = 10;
+
+console.log(num);
+```
+
+<details><summary><b>Answer</b></summary>
+10 - With the var keyword, you can declare multiple variables with the same name. The variable will then hold the latest value.
+</details>
+
+
+
+
+## Question 42:  What's the output?
+
+```javascript
+!!null;
+!!'';
+!!1;
+```
+
+<details><summary><b>Answer</b></summary>
+false - false - true
+</details>
+
+
+
+
