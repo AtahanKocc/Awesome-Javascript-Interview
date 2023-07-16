@@ -1,5 +1,7 @@
-# JS-Interview-Q-A
-
+<div align="center">
+  <img height="60" src="https://img.icons8.com/color/344/javascript.png">
+  <h1>JavaScript Interview Questions</h1>
+</div>
 
 ## Question 1. What will be the output of the following code?
 
