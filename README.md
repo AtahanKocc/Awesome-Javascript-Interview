@@ -676,3 +676,52 @@ false - false - true
 </details>
 
 
+## Question 44: Which of the following type of variable is visible everywhere in your JavaScript code?
+```javascript
+[] - global variable
+
+[] - local variable
+
+[] - Both of the above
+
+[] - None of the above
+
+```
+
+<details><summary><b>Answer</b></summary>
+[X] - global variable
+</details>
+
+
+## Question 45: Which of the following type of variable takes precedence over other if names are same?
+```javascript
+[] - global variable
+
+[] - local variable
+
+[] - Both of the above
+
+[] - None of the above
+
+```
+
+<details><summary><b>Answer</b></summary>
+[X] - local variable
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
