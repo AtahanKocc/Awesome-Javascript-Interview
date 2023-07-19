@@ -658,6 +658,21 @@ console.log(num);
 false - false - true
 </details>
 
+## Question 43: Which of the following is true about variable naming conventions in JavaScript?
 
+```javascript
+[] - You should not use any of the JavaScript reserved keyword as variable name.
+
+[] - JavaScript variable names should not start with a numeral (0-9).
+
+[] - Both of the above.
+
+[] - None of the above.
+
+```
+
+<details><summary><b>Answer</b></summary>
+[X] - Both of the above.
+</details>
 
 
