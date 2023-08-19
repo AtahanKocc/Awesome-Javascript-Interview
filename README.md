@@ -263,7 +263,8 @@ let arrayIntegers3 = arrayIntegers.slice(4);
 
 <details><summary><b>Answer</b></summary>
 First-order function is a function that doesn’t accept another function as an argument and doesn’t return a function as its return value.
-````javascript
+
+```javascript
 const firstOrder = () => console.log("I am a first order function!");
 ```
 </details>
