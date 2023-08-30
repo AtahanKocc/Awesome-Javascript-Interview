@@ -713,16 +713,131 @@ false - false - true
 
 
 
+## Question 46: Takes an array of numbers, and returns the unique numbers. Can you do it in O(N) time?
+```jsx
+uniq([]) // []
+uniq([1, 4, 2, 2, 3, 4, 8])
+```
+
+<details><summary><b>Answer</b></summary>
+uniq([1, 4, 2, 2, 3, 4, 8]) // [1, 4, 2, 3, 8]
+</details>
+
+
+## Question 47: Which statement is the correct way to create a variable called rate and assign it the value 100?
+
+```jsx
+[] - let rate = 100;
+
+[] - let 100 = rate;
+
+[] - 100 = let rate;
+
+[] - rate = 100;
+
+```
+
+<details><summary><b>Answer</b></summary>
+	[] - let rate = 100;
+</details>
+
+
+## Question 48: Which statement creates a new object using the Person constructor? Which statement creates a new Person object called "student"?
+
+```jsx
+
+- [ ] `var student = new Person();`
+- [ ] `var student = construct Person;`
+- [ ] `var student = Person();`
+- [ ] `var student = construct Person();`
+
+```
+<details><summary><b>Answer</b></summary>
+`var student = new Person();`
+</details>
 
 
 
+#### Question 49. How does a function create a closure?
+
+```jsx
+- [ ] It reloads the document whenever the value changes.
+- [ ] It returns a reference to a variable in its parent scope.
+- [ ] It completes execution without returning.
+- [ ] It copies a local variable to the global scope.
+```
+
+<details><summary><b>Answer</b></summary>
+- [x] It returns a reference to a variable in its parent scope.
+</details>
+
+
+## Question 50. What is the result of running this statement?
+
+```js
+console.log(typeof 42);
+```
+
+- [ ] `'float'`
+- [ ] `'value'`
+- [x] `'number'`
+- [ ] `'integer'`
+
+
+## Question 51. Which method converts JSON data to a JavaScript object?
+
+- [ ] `JSON.fromString();`
+- [x] `JSON.parse()`
+- [ ] `JSON.toObject()`
+- [ ] `JSON.stringify()`
+
+
+## Question 52. Which keyword is used to create an error?
+
+- [x] `throw`
+- [ ] `exception`
+- [ ] `catch`
+- [ ] `error`
+
+
+## Question 53. What value does this code return?
+
+```js
+let answer = true;
+if (answer === false) {
+  return 0;
+} else {
+  return 10;
+}
+```
+
+- [x] 10
+- [ ] true
+- [ ] false
+- [ ] 0
+
+
+## Question 54. Which method do you use to attach one DOM node to another?
+
+- [ ] `attachNode()`
+- [ ] `getNode()`
+- [ ] `querySelector()`
+- [x] `appendChild()`
 
 
 
+## Question 55. What statement can be used to skip an iteration in a loop?
+
+- [ ] `break`
+- [ ] `pass`
+- [ ] `skip`
+- [x] `continue`
 
 
+## Question 56. Which choice is not an array method?
 
-
-
-
+- [ ] `array.slice()`
+- [ ] `array.shift()`
+- [ ] `array.push()`
+- [x] `array.replace()`
 
