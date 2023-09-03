@@ -3,6 +3,7 @@
   <h1>JavaScript Interview Questions</h1>
 </div>
 
+
 ## Question 1. What will be the output of the following code?
 
 ``` javascript
