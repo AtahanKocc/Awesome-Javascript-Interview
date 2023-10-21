@@ -208,7 +208,7 @@ d. true  false
 
 
 <details><summary><b>Answer</b></summary>
-d. true false
+b. false false
 </details>
 
 ## Question 15: What would be the output of following code ?
