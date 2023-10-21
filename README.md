@@ -657,7 +657,7 @@ console.log(num);
 ```
 
 <details><summary><b>Answer</b></summary>
-false - false - true
+false - true - true
 </details>
 
 ## Question 43: Which of the following is true about variable naming conventions in JavaScript?
